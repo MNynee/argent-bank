@@ -2,10 +2,11 @@ import Banner from '../../components/Banner'
 import iconChat from '../../assets/icon-chat.png'
 import iconMoney from '../../assets/icon-money.png'
 import iconSecurity from '../../assets/icon-security.png'
+import './home.css'
 
 const Home = () => {
   return (
-    <main>
+    <div className='page'>
       <Banner />
       <section class="features">
         <h2 class="sr-only">Features</h2>
@@ -33,7 +34,7 @@ const Home = () => {
           </p>
         </div>
       </section>
-    </main>
+    </div>
   )
 }
 
